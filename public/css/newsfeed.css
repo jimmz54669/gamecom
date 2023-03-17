@@ -1,0 +1,22 @@
+.newsfeed-container{
+    max-width: 650px;
+    margin-left: 323px;
+}
+@media (max-width: 1024px){
+    .newsfeed-container{
+        margin-left: 233px;
+        max-width: 470px;
+    }
+}
+@media (max-width: 768px){
+    .newsfeed-container{
+        margin-left: 27px;
+        max-width: 641px;
+    }
+}
+@media (max-width: 425px){
+    .newsfeed-container{
+        margin-left: 0px;
+        max-width: 470px;
+    }
+}

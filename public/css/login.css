@@ -1,0 +1,154 @@
+body {
+    background: rgb(48, 47, 47);
+}
+
+#login-page {
+    margin-left: 130px;
+    border: none;
+    width: 100%;
+    max-width: 450px;  
+    background: transparent;  
+}
+
+.card-body{
+    background:rgb(48, 47, 47);
+}
+
+.form-floating input:focus{
+    background: transparent;
+}
+
+.form-floating label {
+    color: aqua;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 2px solid rgba(238, 130, 238, 0.39);
+    background: transparent;
+    border-radius: 0;
+}
+
+.remember {
+    color: aqua;
+}
+
+.remember:hover{
+    color: violet;
+}
+
+.glow::before , .glow::after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    bottom: -2px;
+    border-radius: 18px;
+    background: linear-gradient(45deg, violet, purple, aqua, #302da4);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+.glow::after{
+    filter: blur(30px);
+}
+
+@media (max-width: 1024px){
+    #login-page {
+        margin-left: 0px;
+    }
+}
+
+.form-control{
+    width: 100%;
+}
+
+.card-header {
+    text-align: center;
+    border: none;
+    background: rgb(48, 47, 47);
+    color: aqua;
+}
+
+.log-in-btn{
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    color: aqua;
+    border: 1px solid aqua;
+    font-weight: bold;
+    border-radius: 80px;
+}
+
+.log-in-btn:hover{
+    background: linear-gradient(to left, aqua, violet);
+    color: black;
+    border: 1px solid linear-gradient(to left, aqua, violet);
+}
+
+.registration{
+    text-decoration: none;
+    color: aqua;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+@media (max-width: 768px){
+    .registration{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.registration:hover{
+    color: black;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: aqua;
+}
+
+.btn-link:hover{
+    color: violet;
+}
+
+.text {
+    color: rgb(165, 164, 164);
+    text-align: center;
+    font-size: small;
+}
+
+.text a{
+    text-decoration: none;
+    color: violet;
+}
+
+.text-login{
+    color: rgb(165, 164, 164);
+    text-align: center;
+    font-size: small;
+}
+
+.text-login a{
+    text-decoration: none;
+    color: violet;
+}

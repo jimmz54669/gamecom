@@ -1,0 +1,102 @@
+.current a{
+    text-decoration: none;
+    color: #302da4;
+    font-weight: bold;
+}
+
+.favorite-header{
+    color: violet;
+}
+
+.favorite-delete button{
+  color: aqua;
+}
+
+.favorite-delete button:hover{
+  color: violet;
+}
+
+.game-favorite{
+    background: rgba(32, 32, 32);
+    border: 3px solid rgba(32, 32, 32);
+    padding: 25px;
+    border-radius: 20px;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+.favorite-list{
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.game-pic-favorite img{
+    width: 100%;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 220px;
+    max-height: 220px;
+}
+@media (max-width: 1024px){
+  .game-pic-favorite img{
+    width: 100%;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 160px;
+    max-height: 160px;
+  }
+}
+@media (max-width: 768px){
+  .game-pic-favorite img{
+    width: 100%;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 220px;
+    max-height: 220px;
+    position: relative;
+    margin-left: 12px;
+  }
+}
+@media (max-width: 425px){
+  .game-pic-favorite img{
+    width: 100%;
+    min-width: 60px;
+    min-height: 60px;
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: 27px;
+  }
+}
+@media (max-width: 320px){
+  .game-pic-favorite img{
+    width: 100%;
+    min-width: 60px;
+    min-height: 60px;
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: 10px;
+  }
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: aqua;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: aqua;
+  }

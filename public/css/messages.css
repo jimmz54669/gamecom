@@ -1,0 +1,196 @@
+.chats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-list-container{
+    max-height: 500px;
+    background: rgb(32, 32, 32);
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.user-list{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.user-list-container hr{
+    color: violet;
+    border: 2px solid violet;
+}
+
+.user-pic{
+    display: inline-flex;
+    color: aqua;
+    align-items: center;
+}
+
+.user-pic p{
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.user-to-msg{
+    width: 100%;
+    display: inline-flex;
+    color: violet;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(238, 130, 238, 0.432);
+}
+
+.user-to-msg:hover{
+    border-right: 12px solid aqua;
+    border-bottom: 1px solid aqua;
+}
+
+.user-to-msg p{
+    padding-left: 15px;
+}
+
+.user-to-directmsg{
+    display: inline-flex;
+    color: violet;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.user-to-directmsg p{
+    padding-left: 15px;
+}
+
+
+.chat-menu hr{
+    color: violet;
+}
+
+.chat-acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: violet;
+    font-size: 25px;
+}
+
+.chat-acc p{
+    padding: 15px;
+}
+
+.chat-menu{
+    position: absolute;
+    background: rgb(32, 32, 32);
+    width: 100%;
+    
+    max-width: 690px;
+    top: 15%;
+    border-radius: 8px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s;
+}
+@media (max-width: 1024px){
+    .chat-menu{
+        top: 17%;
+        width: 50%;
+    }
+}
+@media (max-width: 768px){
+    .chat-menu{
+        top: 17%;
+        width: 50%;
+    }
+}
+@media (max-width: 425px){
+    .chat-menu{
+        top: 68%;
+        width: 94%;
+    }
+}
+@media (max-width: 320px){
+    .chat-menu{
+        top: 68%;
+        width: 93%;
+    }
+}
+
+.chat-menu-height {
+    max-height: 600px;
+}
+
+.other-user-msg{
+    color: aqua;
+    background: rgb(32, 32, 32);
+    padding: 10px;
+}
+
+.other-user-chat{
+    margin-left: 53px;
+    margin-top: -40px;
+    max-width: 300px;
+    min-width: 10px;
+}
+
+.other-user-msg div{
+    background: rgb(32, 32, 32);
+    font-size: 20px;
+    border: 1px solid aqua;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.user-profile{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: aqua;
+    background: rgb(32, 32, 32);
+    padding: 10px;
+}
+
+.user-profile div{
+    background: rgb(32, 32, 32);
+    font-size: 20px;
+    border: 1px solid violet;
+    color: violet;
+    margin-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.user-chat-box{
+    padding: 10px;
+}
+
+.chat-box-msgs{
+    max-height: 500px;
+    overflow-y: scroll;
+    
+}
+
+.user-text-chat{
+    border: 1px solid aqua;
+    border-radius: 10px;
+    background: transparent;
+    color: violet;
+    width: 78%;
+    height: 38px;
+}
+
+.chat-submit{
+    background: transparent;
+    border: 1px solid violet;
+    color: aqua;
+    font-weight: bold;
+    width: 20%;
+}
+
+.chat-submit:hover{
+    background: linear-gradient(to right, violet, aqua);
+    color: #302da4;
+}

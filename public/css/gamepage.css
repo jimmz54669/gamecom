@@ -1,0 +1,138 @@
+.game-container{
+    background: rgb(32, 32, 32);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.game-body{
+    display: flex;
+    justify-content: center;
+}
+
+.the-game{
+    min-height: 400px;
+    max-height: 700px;
+    min-width: 400px;
+    max-height: 700px;
+}
+
+.game-comment-box{
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid rgba(238, 130, 238, 0.445);
+    padding: 15px;
+}
+
+.game-comment-box:hover{
+    border-left: 12px solid rgba(238, 130, 238, 0.445);
+}
+
+.comment-con{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.comments{
+    display: flex;
+    align-items: center;
+}
+
+.comments a{
+    text-decoration: none;
+}
+
+.comments h5{
+    color: aqua;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 300px;
+    margin-left: 2px;
+}
+@media (max-width: 425px){
+    .comments h5{
+        font-size: 15px;
+    }
+}
+.comments p {
+    color: violet;
+    overflow-y: scroll;
+    max-height: 60px;
+}
+@media (max-width: 425px){
+    .comments p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 320px){
+    .comments p{
+        font-size: 10px;
+        min-width: 20px;
+    }
+}
+
+.game-user-comment{
+    padding: 10px;
+    width: 100%;
+}
+
+.game-user-comment input{
+    background: transparent;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    width: 80%;
+    min-height: 50px;
+    margin-top: 10px;
+    color: violet;
+}
+@media (max-width: 425px){
+    .game-user-comment input{
+        width: 70%;
+    }
+}
+@media (max-width: 425px){
+    .game-user-comment input{
+        width: 60%;
+    }
+}
+
+.game-user-comment button{
+    color: violet;
+    border: 1px solid aqua;
+    width: 15%;
+    min-height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+@media (max-width: 425px){
+    .game-user-comment button{
+        width: 30%;
+    }
+}
+@media (max-width: 320px){
+    .game-user-comment button{
+        width: 38%;
+    }
+}
+
+.game-user-comment button:hover{
+    color: #302da4;
+    background: linear-gradient(to right, violet, aqua);
+}
+
+.add-favorite-gamepage button{
+    display: flex;
+    font-size: 25px;
+}
+
+.btn-favorite-gamepage i{
+    color: red;
+    margin-right: 5px;
+}
+
+.btn-favorite-gamepage p{
+    color: aqua;
+}
+
+.btn-favorite-gamepage p:hover{
+    color: violet;
+}

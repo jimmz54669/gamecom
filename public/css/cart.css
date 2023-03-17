@@ -1,0 +1,180 @@
+table thead, tbody{
+    color: violet;
+    max-width: 600px;
+    max-height: 600px;
+
+}
+
+.divider-cart{
+    color: aqua;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cart-container{
+    margin-left: 70px;
+    background: rgba(32, 32, 32);
+    padding: 20px;
+    border-radius: 20px;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+@media (max-width: 1024px){
+    .cart-container{
+        margin-left: 35px;
+    }
+}
+@media (max-width: 768px){
+    .cart-container{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 425px){
+    .cart-container{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
+
+.cart-table {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: aqua;
+}
+@media (max-width: 768px){
+    .cart-table{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 425px){
+    .cart-table{
+        margin-left: 0px;
+    }
+}
+
+.cart-table tbody,
+.cart-table tr,
+.cart-table th,
+.cart-table td {
+    display: block;
+    border: none;
+    border-bottom: 1px solid rgba(238, 130, 238, 0.212);
+}
+.cart-table td:hover{
+    border-right: 12px solid aqua;
+    border-bottom: 1px solid aqua;
+}
+
+.cart-table thead tr{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.cart-table td {
+    position: relative;
+    padding-left: 50%;
+}
+.cart-table td::before{
+    content: attr(data-title);
+    position: absolute;
+    left: 6px;
+    font-weight: bold;
+}
+
+.product-img-profile{
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 150px;
+    min-height: 150px;
+}
+@media (max-width: 425px){
+    .product-img-profile{
+        max-width: 100px;
+        max-height: 100px;
+        min-height: 100px;
+        min-width: 100px;
+    }
+}
+
+
+.quantity-product-cart{
+    padding: 10px;
+}
+
+.prodqty-add-cart{
+    border: 1px solid aqua;
+    margin-right: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    color: violet;
+}
+
+.prodqty-add-cart:hover{
+    color: #302da4;
+    background: linear-gradient(to right, violet, aqua);
+}
+
+.prodqty-minus-cart{
+    border: 1px solid aqua;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    color: violet;
+}
+
+.prodqty-minus-cart:hover{
+    color: #302da4;
+    background: linear-gradient(to right, violet, aqua);
+}
+
+.btn-delete-cart{
+    color: violet;
+    font-size: 20px;
+}
+
+.grandTotal{
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.btn-place-order{
+    border: 1px solid aqua;
+    color: violet;
+}
+
+.btn-place-order:hover{
+    color: #302da4;
+    background: linear-gradient(to right, violet, aqua); 
+}
+
+.btn-for-placeorder-cart{
+    border: 1px solid aqua;
+    color: violet;
+}
+
+.btn-for-placeorder-cart:hover{
+    color: #302da4;
+    background: linear-gradient(to right, violet, aqua); 
+}
+
+/* order css */
+.btn-order-details{
+    color: violet;
+    border: 1px solid aqua;
+    border-radius: 10px;
+}
+
+.btn-order-details:hover{
+    color: #302da4;
+    background: linear-gradient(to right, violet, aqua); 
+}

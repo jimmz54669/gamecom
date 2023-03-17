@@ -1,0 +1,172 @@
+.buy-item-img{
+    max-width: 450px;
+    max-height: 550px;
+    min-width: 450px;
+    min-height: 450px;
+}
+@media (max-width: 1024px){
+    .buy-item-img{
+        max-width: 400px;
+    }
+    .buy-item-pic{
+        max-width: 400px;
+    }
+}
+@media (max-width: 768px){
+    .buy-item-img{
+        max-width: 300px;
+    }
+    .buy-item-pic{
+        max-width: 300px;
+    }
+}
+@media (max-width: 425px){
+    .buy-item-img{
+        max-width: 400px;
+    }
+    .buy-item-pic{
+        max-width: 400px;
+    }
+}
+@media (max-width: 320px){
+    .buy-item-img{
+        max-width: 300px;
+    }
+    .buy-item-pic{
+        max-width: 300px;
+    }
+}
+
+.buy-item-pic{
+    width: 100%;
+    max-height: 550px;
+}
+
+.buy-item-title h1{
+    color: aqua;
+    font-size: 60px;
+}
+
+.buy-item-price h2{
+    color: violet;
+    font-size: 40px;
+}
+
+.buy-size{
+    display: flex;
+    color: violet;
+    margin-top: 25px;
+}
+
+.buy-size h4{
+    margin-right: 5px;
+}
+
+.buy-size select{
+    background: transparent;
+    height: 30px;
+    margin-left: 10px;
+    color: aqua;
+    border: 1px solid violet;
+    border-radius: 8px;
+}
+
+.but-item-quantity{
+    margin-top: 25px;
+}
+
+.but-item-quantity button{
+    border: 1px solid aqua;
+    color: violet;
+    font-weight: bold;
+}
+
+.buy-item-stock{
+    display: flex;
+    align-items: center;
+}
+
+.buy-item-stock h3{
+    color: violet;
+    margin-top: 5px;
+}
+
+.buy-item-stock span{
+    color: aqua;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.but-item-quantity button:hover{
+    color: #302da4;
+    background: linear-gradient(to right, violet, aqua);
+}
+
+.but-item-quantity span{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: violet;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.prod-count{
+    background: transparent;
+    color: violet;
+    width: 40px;
+    border: 1px solid aqua;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.buy-total{
+    margin-top: 25px;
+}
+
+.total-price-added h3{
+    color: aqua;
+    font-size: 45px;
+}
+
+.buy-selector-btn button{
+    border: 1px solid aqua;
+    color: violet;
+    font-size: 25px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.buy-selector-btn button:hover{
+    color: #302da4;
+    background: linear-gradient(to right, violet, aqua);
+}
+
+.modal-header h4{
+    color: aqua;
+}
+
+.modal-header button{
+    color: violet;
+    font-size: large;
+}
+
+.modal-header button:hover{
+    color: aqua;
+}
+
+.modal-body{
+    color: violet;
+    overflow-y: scroll;
+}
+
+.btn-for-placeorder{
+    border: 1px solid aqua;
+    font-weight: bold;
+    color: violet;
+    border-radius: 10px;
+}
+
+.btn-for-placeorder:hover{
+    color: #302da4;
+    background: linear-gradient(to right, violet, aqua);
+}

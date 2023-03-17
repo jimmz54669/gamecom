@@ -1,0 +1,45 @@
+.game-details{
+    background: rgb(32, 32, 32);
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.game-details a{
+    text-decoration: none;
+}
+
+.game-pic img{
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.game-title{
+    margin-top: 10px;
+    color: aqua;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.game-title:hover{
+    color: violet;
+}
+
+.add-favorite button{
+    color: red;
+}
+
+.add-favorite button:hover{
+    color: aqua;
+}
+
+
+.btn-favorite{
+    font-size: 25px;
+    margin-top: -660px;
+}
